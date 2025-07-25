@@ -3,6 +3,22 @@
 version = 4
 
 [[package]]
+name = "addonmanager-cli"
+version = "0.2.2"
+dependencies = [
+ "addonmanager-core",
+ "clap",
+ "colored",
+ "downloader-core",
+ "figlet-rs",
+ "tokio",
+]
+
+[[package]]
+name = "addonmanager-core"
+version = "0.2.2"
+
+[[package]]
 name = "addr2line"
 version = "0.24.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"

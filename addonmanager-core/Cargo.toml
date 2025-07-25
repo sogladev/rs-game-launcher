@@ -1,0 +1,12 @@
+[package]
+name = "addonmanager-core"
+version = "0.2.2"
+edition = "2024"
+
+[dependencies]
+
+[features]
+default = ["demo"]
+demo = []
+production = []
+
